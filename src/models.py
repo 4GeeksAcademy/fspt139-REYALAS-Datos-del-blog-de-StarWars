@@ -5,7 +5,7 @@ from eralchemy2 import render_er
 from datetime import datetime
 
 db = SQLAlchemy()
-
+ 
 
 class User(db.Model):
     __tablename__ = "user"
